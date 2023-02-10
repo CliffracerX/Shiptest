@@ -194,6 +194,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
+"bU" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/obj/item/stack/rods/ten,
+/turf/open/floor/plasteel,
+/area/ship/engineering/atmospherics)
 "ca" = (
 /obj/effect/turf_decal/corner/opaque/red/mono,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -1094,7 +1101,9 @@
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/bridge)
 "kr" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxin_output,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxin_output{
+	on = 0
+	},
 /turf/open/floor/engine/plasma,
 /area/ship/engineering/atmospherics)
 "kt" = (
@@ -2009,7 +2018,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "rM" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/nitrogen_output,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/nitrogen_output{
+	on = 0
+	},
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "sc" = (
@@ -2323,6 +2334,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/cargo/office)
+"uw" = (
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plating,
+/area/ship/engineering/atmospherics)
 "uD" = (
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /obj/effect/turf_decal/corner/opaque/yellow/diagonal{
@@ -3660,14 +3675,16 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo)
 "GA" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 6
+/obj/item/paper/crumpled{
+	info = "Someone tried to plasmaflood distro while we were at the shipyard & we had to break these pipes.  Please replace them at your leisure and power on the inlets once you're finished!"
 	},
-/obj/effect/spawner/structure/window/plasma/reinforced/shutters,
+/obj/machinery/door/firedoor/window,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "GF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/oxygen_output,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/oxygen_output{
+	on = 0
+	},
 /turf/open/floor/engine/o2,
 /area/ship/engineering/atmospherics)
 "GK" = (
@@ -4372,7 +4389,9 @@
 /turf/open/floor/plasteel,
 /area/ship/cargo/office)
 "Np" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos/air_output,
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos/air_output{
+	on = 0
+	},
 /turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "Ns" = (
@@ -4865,6 +4884,7 @@
 /area/ship/hallway/central)
 "QU" = (
 /obj/effect/turf_decal/techfloor,
+/obj/structure/window/plasma/reinforced/fulltile/unanchored,
 /turf/open/floor/plasteel,
 /area/ship/engineering/atmospherics)
 "QY" = (
@@ -6304,7 +6324,7 @@ ed
 UD
 dB
 IX
-Ts
+bU
 QU
 vO
 QY
@@ -6331,7 +6351,7 @@ Ym
 kz
 gx
 gx
-GA
+uw
 VQ
 ES
 IX
